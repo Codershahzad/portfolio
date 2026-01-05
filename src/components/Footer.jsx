@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import { Heart, Coffee } from 'lucide-react';
 
 const Footer = () => {
@@ -68,11 +68,11 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-1 text-gray-400 mb-4 md:mb-0">
-              <span>Made with</span>
+              <span>Made </span>
               <Heart className="w-4 h-4 text-red-500 fill-current" />
-              <span>and</span>
+              <span>by</span>
               <Coffee className="w-4 h-4 text-yellow-500" />
-              <span>by Portfolio</span>
+              <span>shehzad</span>
             </div>
             
             <div className="flex space-x-6">
